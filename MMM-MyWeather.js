@@ -25,7 +25,7 @@ Module.register("MMM-MyWeather", {
     forecasttablecolumnheadericons: 1,
     coloricon: false,
     units: config.units,
-    windunits: "bft", // choose from mph, kph, bft
+    windunits: "mph", // choose from mph, kph, bft
     updateInterval: 10 * 60 * 1000, // every 10 minutes
     animationSpeed: 1000,
     timeFormat: "h a",
@@ -56,7 +56,7 @@ Module.register("MMM-MyWeather", {
 
     retryDelay: 2500,
 
-    apiBase: "http://api.wunderground.com/api/",
+    apiBase: "http://api.weather.com/",
 
     iconTableDay: {
       "chanceflurries": "wi-day-snow-wind",
